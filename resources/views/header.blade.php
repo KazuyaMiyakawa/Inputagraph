@@ -1,7 +1,7 @@
 <header>
   <ul class="header-items">
     <li></li>
-    <li>inputagram</li>
+    <li>inputagraph</li>
 
     <li id="menu-parent">
       <ul id="menu" class="closed">
