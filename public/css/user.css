@@ -1,0 +1,19 @@
+input.show-button{
+  height: 32px;
+  width: 160px;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  background: #f56778;
+  color: #fff;
+  line-height: 25px;
+  vertical-align:middle
+  border-radius: 3px;
+  box-shadow: 1px 2px 4px #d4842c;
+}
+input.show-button{  /* クリック時の設定 */
+  -ms-transform: translateY(2px);
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px);
+  box-shadow:none;
+}
