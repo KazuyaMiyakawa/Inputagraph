@@ -54,6 +54,9 @@
             echo "</div>\n";
             echo "<hr>\n";
           }
+        }else {
+          echo "<a href=".route('login').">ログイン</a><br>";
+          echo "<a href=".route('register').">ユーザー登録</a>";
         }
       ?>
 

@@ -14,8 +14,8 @@
                 <li><a href="{{ url('/user') }}">マイアカウント</a></li>
                 <li><a href="{{ url('/logout') }}">ログアウト</a></li>
               @else
-                <a href="{{ route('login') }}">ログイン</a>
-                <a href="{{ route('register') }}">ユーザー登録</a>
+                <li><a href="{{ route('login') }}">ログイン</a></li>
+                <li><a href="{{ route('register') }}">ユーザー登録</a></li>
               @endauth
             @endif
           </ul>
